@@ -1,6 +1,7 @@
 :root{
 	--corbackprincipal:#FEFEFE;
-	--corbackbeneficios:#888888;
+	--corbackbeneficios:#FEFEFE;
+	--corimgbeneficios: #000000;
 
 }
 
@@ -64,7 +65,7 @@
 
 .beneficios{
 	padding: 3em 0;
-	background: #888888;
+	background: #FEFEFE;
 }
 
 .lista-beneficios{
@@ -85,7 +86,7 @@
     width: 50%;
     opacity: 1;
     transition: 400ms;
-    box-shadow: 10px 10px 10px 0 #000000;
+    box-shadow: 10px 10px 10px 0 var(--corimgbeneficios)
 }
  
 .imagem-beneficios:hover{
